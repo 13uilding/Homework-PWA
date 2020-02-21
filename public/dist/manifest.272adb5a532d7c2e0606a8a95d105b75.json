@@ -1,0 +1,11 @@
+{
+  "name": "budget-app",
+  "short_name": "budget-app",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/http://localhost:3000",
+  "description": "An application for images",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff",
+  "theme-color": "#ffffff"
+}

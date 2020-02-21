@@ -6,10 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "webpack-dev-server --mode development --open",
     "prestart": "npm run webpack",
-    "webpack": "webpack",
-    "heroku-postbuild": "webpack -p"
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -30,5 +28,6 @@
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-pwa-manifest": "^4.2.0"
-  }
+  },
+
 }
