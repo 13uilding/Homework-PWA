@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "prestart": "npm run webpack",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,10 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "mongoose": "^5.5.15"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-pwa-manifest": "^4.2.0"
   }
 }
