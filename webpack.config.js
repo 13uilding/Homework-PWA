@@ -13,8 +13,8 @@ const config = {
   },
   plugins: [
     new WebpackPwaManifest({
-      name: "Budget App",
-      short_name: "Budget App",
+      name: "budget-app",
+      short_name: "budget-app",
       description: "An application for images",
       background_color: "#01579b",
       theme_color: "#ffffff",
